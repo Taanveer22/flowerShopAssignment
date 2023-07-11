@@ -20,8 +20,65 @@
 /* header related styles */
 .headertop {
   background-color: #e554731a;
+  margin-bottom: 178px;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+  padding: 30px 30px 30px 150px;
+  display: flex;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-top: 197px;
+  margin-bottom: 32px;
+}
+
+.banner-description {
+  color: #27272799;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+/* featured section related styles */
+.featured-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.featured-description {
+  color: #272727;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.flowers-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flower1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.flower3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
