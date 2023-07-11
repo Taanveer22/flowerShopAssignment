@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* common shared styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-pink {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* header related styles */
+.headertop {
+  background-color: #e554731a;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+}
