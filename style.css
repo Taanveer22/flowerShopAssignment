@@ -174,7 +174,7 @@ header {
 
 /* insta section styles */
 .insta {
-  margin-bottom: 128px;
+  margin-bottom: 125px;
 }
 
 .insta-heading {
@@ -200,8 +200,8 @@ header {
   align-items: center;
 }
 
-.insta1 {
-  background: lightgray 50% / cover no-repeat;
+.insta-flower-location{
+  width: 100%;
 }
 
 /* subscribe section styles */
