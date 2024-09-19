@@ -12,7 +12,7 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 36px;
+  margin-bottom: 48px;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
   text-align: center;
   font-size: 30px;
   font-weight: 800;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 
 .container {
@@ -45,7 +45,9 @@
   margin: 30px auto;
   text-align: center;
 }
+
 /* header related styles */
+
 header {
   background: rgba(229, 84, 115, 0.10);
   margin-bottom: 125px;
@@ -76,6 +78,7 @@ header {
 
 
 /* featured section related styles */
+
 #featured {
   margin-bottom: 125px;
 }
@@ -173,36 +176,22 @@ header {
 
 
 /* insta section styles */
-.insta {
+
+#insta {
   margin-bottom: 125px;
 }
 
-.insta-heading {
-  color: #272727;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 10px;
-}
-
-.insta-description {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-bottom: 48px;
-}
-
-.insta-flower-container {
+.insta-photo-container {
   display: flex;
-  justify-content: space-around;
+  gap: 18px;
+  justify-content: space-between;
   align-items: center;
 }
 
-.insta-flower-location{
+.insta-photo img{
   width: 100%;
 }
+
 
 /* subscribe section styles */
 .subscribe {
