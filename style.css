@@ -12,8 +12,7 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 48px;
-  text-align: center;
+  margin-bottom: 32px;
 }
 
 .btn-common {
@@ -28,10 +27,9 @@
 
 .title-common {
   color: #272727;
-  text-align: center;
   font-size: 30px;
   font-weight: 800;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -44,6 +42,18 @@
   max-width: 575px;
   margin: 30px auto;
   text-align: center;
+}
+
+.text-pink {
+  color: #e55473;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.text-white {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 /* header related styles */
@@ -137,38 +147,18 @@ header {
 
 .hotdeal-container {
   width: 57%;
-  max-width: 825px;
+  max-width: 1100px;
   margin: 0px auto;
-  padding: 180px 0px;
+  padding: 150px 200px;
   display: flex;
   gap: 140px;
   align-items: center;
   justify-content: space-between;
 }
 
-.hotdeal-title {
-  color: #272727;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
-}
-
-.hotdeal-description {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.hotdeal-text * {
-  max-width: 575px;
+.hotdeal-text *{
+  max-width: 700px;
   margin: 0px auto;
-  text-align: center;
-}
-
-.btn-middle {
-  text-align: center;
 }
 
 .hotdeal-photo img {
@@ -207,6 +197,7 @@ header {
 .subscribe-text {
   max-width: 350px;
   margin: 10px auto;
+  text-align: center;
 }
 
 .subscribe-form {
@@ -228,39 +219,21 @@ header {
 }
 
 /* footer related styles */
-.footerbottom {
+
+
+.footer-container {
   background: #111010;
-  margin: auto;
-  padding: 0 120px;
+  max-width: 475px;
+  margin: 0 auto;
+  padding: 80px 400px;
 }
 
-.footer-title {
-  text-align: center;
-}
-
-.pink {
-  color: #e55473;
-  font-size: 48px;
-  font-weight: 800;
-}
-
-.white {
-  color: #fff;
-  font-size: 48px;
-  font-weight: 800;
-}
-
-.footer-description {
-  color: rgba(255, 255, 255, 0.9);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
+.footer-para {
+  color: rgba(255, 255, 255, 0.90);
 }
 
 .footer-copy {
   color: rgba(255, 255, 255, 0.4);
-  text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
 }
