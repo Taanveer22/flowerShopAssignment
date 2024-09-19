@@ -158,6 +158,8 @@ header {
 .hotdeal-text {
   max-width: 445px;
   margin: 0px auto;
+  text-align: center;
+  /* it is very important to move a button in center via "TAC" property in parent div */
 }
 
 .hotdeal-photo img {
