@@ -137,6 +137,41 @@ header {
   text-decoration-line: underline;
 }
 
+
+/* campaign section styles */
+#campaign {
+  margin-bottom: 125px;
+}
+
+.campaign-items {
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  padding: 66px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+
+.camp-box {
+  max-width: 400px;
+  text-align: center;
+}
+
+.camp-photo img {
+  width: 66px;
+  height: 66px;
+  margin-bottom: 18px;
+}
+
+.camp-text {
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /* hot deal section styles*/
 
 #hotdeal {
