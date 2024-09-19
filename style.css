@@ -7,47 +7,63 @@
   font-family: "Lato", sans-serif;
 }
 
+.paragraph {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 .btn-pink {
   border-radius: 8px;
   background: #e55473;
   border: 0;
-  padding: 20px 43px;
+  padding: 20px 40px;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
 }
 
 /* header related styles */
-.headertop {
-  background-color: #e554731a;
-  margin-bottom: 178px;
+header {
+  background: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .banner {
-  padding: 30px 30px 30px 150px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-text *{
+  max-width: 525px;
+  margin-bottom: 30px;
+}
+
+.banner-photo img {
+  width: 100%;
+  vertical-align: middle;
+  /* very very important property for image spacing in the bottom */
 }
 
 .banner-title {
   color: #272727;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 800;
-  margin-top: 197px;
-  margin-bottom: 32px;
 }
 
-.banner-description {
-  color: #27272799;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-bottom: 32px;
-}
 
 /* featured section related styles */
 .featured {
   margin-bottom: 128px;
 }
+
 .featured-title {
   color: #272727;
   text-align: center;
@@ -121,6 +137,7 @@
 .insta {
   margin-bottom: 128px;
 }
+
 .insta-heading {
   color: #272727;
   text-align: center;
@@ -146,15 +163,11 @@
 
 .insta1 {
   background: lightgray 50% / cover no-repeat;
-  width: 342px;
-  height: 396px;
 }
 
 /* subscribe section styles */
 .subscribe {
   background: url("images/Rectangle 9.png");
-  width: 900px;
-  height: 300px;
   margin: auto;
   margin-bottom: 128px;
 }
@@ -162,8 +175,6 @@
 /* footer related styles */
 .footerbottom {
   background: #111010;
-  width: 1000px;
-  height: 330px;
   margin: auto;
   padding: 0 120px;
 }
