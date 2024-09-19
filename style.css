@@ -20,7 +20,7 @@
   border-radius: 8px;
   background: #e55473;
   border: 0;
-  padding: 20px 40px;
+  padding: 15px 30px;
   color: #fff;
   font-size: 15px;
   font-weight: 700;
@@ -161,16 +161,17 @@ header {
   line-height: 30px;
 }
 
-.hotdeal-text *{
+.hotdeal-text * {
   max-width: 575px;
   margin: 0px auto;
   text-align: center;
 }
 
-.btn-middle{
+.btn-middle {
   text-align: center;
 }
-.hotdeal-photo img{
+
+.hotdeal-photo img {
   width: 100%;
 }
 
@@ -188,16 +189,42 @@ header {
   align-items: center;
 }
 
-.insta-photo img{
+.insta-photo img {
   width: 100%;
 }
 
 
 /* subscribe section styles */
-.subscribe {
-  background: url("images/Rectangle 9.png");
-  margin: auto;
-  margin-bottom: 128px;
+#subscribe {
+  margin-bottom: 125px;
+}
+
+.subscribe-banner {
+  background: url('images/Rectangle 9.png');
+  padding: 90px 215px;
+}
+
+.subscribe-text {
+  max-width: 350px;
+  margin: 10px auto;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  max-width: 850px;
+  margin: 10px auto;
+}
+
+.email-field {
+  width: 500px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 12px;
+  font-weight: 400;
 }
 
 /* footer related styles */
